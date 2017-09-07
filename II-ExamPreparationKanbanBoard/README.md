@@ -2,7 +2,7 @@
 Kanban Board(in C#, Java, JS and PHP) - Exam Preparation for the Tech Module @ SoftUni (August 2017)
 
 You are assigned to create a simple **Kanban Board App**. The application should hold **tasks**, which are the main app entities. 
-Tasks can change their status: open -> in progress -> done. The app is called TeisterMask, like the popular Kanban board task management app ìMeister Taskî.
+Tasks can change their status: open -> in progress -> done. The app is called TeisterMask, like the popular Kanban board task management app ‚ÄúMeister Task‚Äù.
 The functionality of the application should support creating, listing and editing tasks.
 The application should persist the data into a database.
 
@@ -36,15 +36,15 @@ Your application should be built on each one of the following technologies:
 ## Data Model
 
 The `Task` entity holds 3 properties:
-*	`id` ñ technology-dependent identifier (`ObjectID` for JavaScript, `int` for all other technologies)
-*	`title` ñ non-empty text
-*	`status` ñ non-empty text, which can hold either of the following values:
+*	`id` ‚Äì technology-dependent identifier (`ObjectID` for JavaScript, `int` for all other technologies)
+*	`title` ‚Äì non-empty text
+*	`status` ‚Äì non-empty text, which can hold either of the following values:
 **	`Open`
 **	`In progress`
 **	`Finished`
 
 ## User Interface
-This is the user interface or how the applicationís pages should look in their final form (fully implemented).
+This is the user interface or how the application‚Äôs pages should look in their final form (fully implemented).
 
 Index Page
 Route: `/` (GET)
@@ -60,3 +60,6 @@ Route: `/create` (GET and POST)
 Route: `/edit/{id}` (GET and POST)
 
 `GET` shows a form to edit a certain task. `POST` confirms editing a task and modifies the task in the database.
+
+## Languages and Technologies
+Implement the **Kanban Board App** on all mentioned 4 technology stacks.
