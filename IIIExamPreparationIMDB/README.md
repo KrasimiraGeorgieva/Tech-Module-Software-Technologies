@@ -35,14 +35,14 @@ Your application should be built on each one of the following technologies:
 ## Data Model
 
 The `Film ` entity holds 5 properties:
-*	`id` – technology-dependent identifier (`ObjectID` for JavaScript, `int` for all other technologies)
-*	`name` – non-empty text
-*	`genre` – non-empty text
-*	`director` – non-empty text
-*	`year` – non-null integer
+*	`id` â€“ technology-dependent identifier (`ObjectID` for JavaScript, `int` for all other technologies)
+*	`name` â€“ non-empty text
+*	`genre` â€“ non-empty text
+*	`director` â€“ non-empty text
+*	`year` â€“ non-null integer
 
 ## User Interface
-This is the user interface or how the application’s pages should look in their final form (fully implemented).
+This is the user interface or how the applicationâ€™s pages should look in their final form (fully implemented).
 
 Index Page
 Route: `/` (GET)
@@ -63,3 +63,6 @@ Route: `/edit/{id}` (GET and POST)
 Route: `/delete/{id}` (GET and POST)
 
 `GET` shows a form to delete a certain film. `POST` confirms deleting a film and removes the film from the database.
+
+## Languages and Technologies
+Implement the **IMDB App** on all mentioned 4 technology stacks.
