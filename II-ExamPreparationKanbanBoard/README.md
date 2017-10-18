@@ -46,7 +46,7 @@ The `Task` entity holds 3 properties:
 ## User Interface
 This is the user interface or how the application’s pages should look in their final form (fully implemented).
 
-Index Page
+### Index Page
 Route: `/` (GET)
 
 List all tasks in three columns.
