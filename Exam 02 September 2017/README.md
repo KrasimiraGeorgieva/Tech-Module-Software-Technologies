@@ -44,7 +44,7 @@ The `Product` entity holds 5 properties:
 ## User Interface
 This is the user interface or how the application’s pages should look in their final form (fully implemented).
 
-Index Page
+### Index Page
 Route: `/` (GET)
 
 Displays all the products from the database with an option to modify them.
