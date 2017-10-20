@@ -1,9 +1,9 @@
-# Practical Exam – Anime List - Tech-Module
+# Exam Retake – Anime List - Tech-Module
 Anime List(in C#, Java, JS and PHP) - Practical Exam for the Tech Module @ SoftUni (September 2017)
 
 You have been tasked to create a simple application that simulates an **Anime List App**. The application should hold **animes**, which are the main app entities. The app is called AnimeList.
 The functionality of the application should support creating, listing, deleting animes.
-The application should persist the data into a database.
+The application should persist the **data** into a **database**.
 
 ## Overview
 Your application should be built on each one of the following technologies:
