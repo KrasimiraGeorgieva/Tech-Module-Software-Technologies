@@ -39,9 +39,9 @@ The `Task` entity holds 3 properties:
 *	`id` – technology-dependent identifier (`ObjectID` for JavaScript, `int` for all other technologies)
 *	`title` – non-empty text
 *	`status` – non-empty text, which can hold either of the following values:
-**	`Open`
-**	`In progress`
-**	`Finished`
+-	`Open`
+-	`In progress`
+-	`Finished`
 
 ## User Interface
 This is the user interface or how the application’s pages should look in their final form (fully implemented).
